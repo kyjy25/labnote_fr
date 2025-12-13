@@ -20,11 +20,19 @@ layout:
     visible: true
 ---
 
-# Introduction
+# What Is This About
 
 #### What is this about?
 
-Keep track of my thesis project, focused on automating second-harmonic generation to improve reliability and efficiency in trapped-ion laboratory setups.&#x20;
+Keep track of my thesis project, focused on automating SHG to improve reliability and efficiency in trapped-ion laboratory setups.&#x20;
+
+#### What is SHG?&#x20;
+
+SHG (second-harmonic generation) is a nonlinear optical process used to convert infrared light into UV wavelengths. UV laser light typically offers a narrow frequency bandwidth, high output stability, and well-controlled beam characteristics, all of which are essential for atomic and quantum experiments.
+
+#### Why do we want to automate it?
+
+SHG systems are sensitive to many kinds of drift: temperature fluctuations, pointing instabilities, cavity alignment changes, and variations in input power. These drifts require frequent manual adjustments to maintain efficient frequency conversion. Automation stabilizes long-term UV output, and minimizes the need for human intervention.
 
 #### Have questions/suggestions?
 
