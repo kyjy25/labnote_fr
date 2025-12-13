@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Introduction](README.md)
+
 ## Oven Heating
 
-* [Preparation of Characterization of Oven Heating](README.md)
+* [Preparation of Characterization of Oven Heating](<README (1).md>)
 * [Characterization of Temperature Reading Resolution](oven-heating/characterization-of-temperature-reading-resolution.md)
 
 ## Cavity Assembly
