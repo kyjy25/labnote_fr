@@ -37,7 +37,7 @@ SHG systems are sensitive to many kinds of drift: temperature fluctuations, poin
 
 #### Have questions/suggestions?
 
-Email: zhen.mi@email.uni-freiburg.de or check github repo [https://github.com/kyjy25/labnote\_fr.git](https://github.com/kyjy25/labnote_fr.git)
+Email: zhen.mi@email.uni-freiburg.de
 
 #### Why your questions/feedback matter?
 

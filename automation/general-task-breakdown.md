@@ -54,17 +54,17 @@ Nitrogen pumping to reduce contamination induced by photochemical reaction
 
 ### Characterization of Automation Feedback Signal Stability
 
-Identify possible noise/drift sources, including&#x20;
+**Identify possible noise/drift sources, including**&#x20;
 
-* **Temperature noise** (MCD, TH10K sensors)
-* **PZT drift, cavity length drift**
-* **Input laser power fluctuations**
+* Temperature noise (MCD, TH10K sensors?)
+* PZT drift, cavity length drift
+* Input laser power fluctuations
 
 **Rank them by their dominancy**
 
 * Measure sensitivity of SHG output to alignment, temperature, and cavity length.
 
-A dataset demonstrating:
+**A dataset demonstrating:**
 
 * How unstable the system is without automation
 * Which parameters dominate SHG efficiency
