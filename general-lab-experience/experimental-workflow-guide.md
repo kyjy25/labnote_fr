@@ -7,8 +7,6 @@ icon: ruler
 
 
 {% hint style="info" %}
-author: zhen.mi
-
 Update: 2025-12-09
 {% endhint %}
 

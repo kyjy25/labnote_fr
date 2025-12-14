@@ -1,4 +1,5 @@
 ---
+description: 'author: Zhen Mi'
 cover: .gitbook/assets/IMG_2589.jpeg
 coverY: -914.6018347412885
 layout:
@@ -36,13 +37,13 @@ SHG systems are sensitive to many kinds of drift: temperature fluctuations, poin
 
 #### Have questions/suggestions?
 
-You can submit issue/suggestions/questions either through synced github repo [https://github.com/kyjy25/labnote\_fr.git](https://github.com/kyjy25/labnote_fr.git), or email: zhen.mi@email.uni-freiburg.de&#x20;
+Email: zhen.mi@email.uni-freiburg.de or check github repo [https://github.com/kyjy25/labnote\_fr.git](https://github.com/kyjy25/labnote_fr.git)
 
 #### Why your questions/feedback matter?
 
-It would be not only a help for me, but also an improvement for the lab, the standard workflow formed will also benefit other people/labs who have demands for building similar setup.&#x20;
+It would be not only a help for me, but also a contribution to the lab, the workflow formed could also benefit other people who want to build similar setup (hope so).&#x20;
 
-#### My lab webpage?
+#### Our lab webpage?
 
 [https://www.qsim.uni-freiburg.de/](https://www.qsim.uni-freiburg.de/)
 
