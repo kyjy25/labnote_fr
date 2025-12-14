@@ -29,9 +29,14 @@ Soldering work, including Pi boards (Maybe send to electrical workshop)
 
 ### Artiq Integration
 
+Check all of their divers, like&#x20;
+
+* PZT driver
+* Photodiode readout (via DAQ?)
+
 Practically connect them into Artiq network, test their performance and compatibility
 
-Make Artiq system actually take over the automation work
+Make Artiq system actually take over the automation work.
 
 ### 3D Print
 
