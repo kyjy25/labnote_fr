@@ -13,11 +13,13 @@
 
 ## automation
 
+* [Plan](automation/plan.md)
 * [General Task Breakdown](automation/general-task-breakdown.md)
 * [Artiq Setup](automation/artiq-setup.md)
 
 ## General Lab Experience
 
+* [Epoxy Cleaning Procedure in Chemical Room](general-lab-experience/epoxy-cleaning-procedure-in-chemical-room.md)
 * [Experimental Workflow Guide](general-lab-experience/experimental-workflow-guide.md)
 
 ## Toolbox

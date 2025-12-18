@@ -7,7 +7,7 @@ icon: ruler
 
 
 {% hint style="info" %}
-Update: 2025-12-09
+
 {% endhint %}
 
 * Make demand clear

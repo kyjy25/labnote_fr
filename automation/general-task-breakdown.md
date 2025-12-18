@@ -17,7 +17,7 @@ Identify how many components are missing
 
 Identify their corresponding properties and expected performances we need
 
-For servos, analyze how many motional DOF are there in the cavity to determine the amount of servos we need.
+For servos, analyze how many motional DOF there areddd in the cavity to determine the amount of servos we need.
 
 Purchase selection, taking into account their delivery time. Place orders.
 
