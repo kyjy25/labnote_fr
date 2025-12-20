@@ -22,10 +22,11 @@
 * [Epoxy Cleaning Procedure in Chemical Room](general-lab-experience/epoxy-cleaning-procedure-in-chemical-room.md)
 * [Experimental Workflow Guide](general-lab-experience/experimental-workflow-guide.md)
 
-## Toolbox
+## Theory Toolbox
 
-* [SHG Crystal Questions](toolbox/shg-crystal-questions.md)
+* [SHG Crystal Questions](theory-toolbox/shg-crystal-questions.md)
 
 ***
 
-* [About Nonlinear Crystal](about-nonlinear-crystal.md)
+* [Birefringent Crystal](birefringent-crystal.md)
+* [Nonlinear Crystal Selection For SHG](nonlinear-crystal-selection-for-shg.md)
