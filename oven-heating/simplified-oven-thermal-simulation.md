@@ -200,11 +200,35 @@ A parameter configuration table shown below can be used to schedule the simulati
 
 We pick 6 probe points, 4 of them are at the corners of nonlinear crystal, labeled as from P1 to P6. Shown in the screenshot below.&#x20;
 
-<figure><img src="../.gitbook/assets/simulation_probes.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/simulation_probes.png" alt="" width="563"><figcaption></figcaption></figure>
+
+We repeat these tasks and take a screenshot for each simulation result
+
+{% columns %}
+{% column %}
+<figure><img src="../.gitbook/assets/simulation_result_1.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../.gitbook/assets/simulation_result_2.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+<figure><img src="../.gitbook/assets/simulation_result_3.png" alt=""><figcaption></figcaption></figure>
 
 
+{% endcolumn %}
 
-<table><thead><tr><th width="82.1668701171875">Task</th><th>P1 (°C)</th><th>P2 (°C)</th><th>P3 (°C)</th><th>P4 (°C)</th><th>P5 (°C)</th><th>P6 (°C)</th><th>P0 (°C)</th></tr></thead><tbody><tr><td>1</td><td>119.956</td><td>119.946</td><td>119.942</td><td>119.895</td><td>119.887</td><td>119.889</td><td>119.967</td></tr><tr><td>2</td><td>119.947</td><td>119.934</td><td>119.928</td><td>119.869</td><td>119.859</td><td>119928</td><td>119.67</td></tr><tr><td>3</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+{% column %}
+
+{% endcolumn %}
+{% endcolumns %}
+
+Detailed simulation values of these points are collected in the table below
+
+<table><thead><tr><th width="82.1668701171875">Task</th><th>P1 (°C)</th><th>P2 (°C)</th><th>P3 (°C)</th><th>P4 (°C)</th><th>P5 (°C)</th><th>P6 (°C)</th><th>P0 (°C)</th></tr></thead><tbody><tr><td>1</td><td>119.956</td><td>119.946</td><td>119.942</td><td>119.895</td><td>119.887</td><td>119.889</td><td>119.967</td></tr><tr><td>2</td><td>119.947</td><td>119.934</td><td>119.928</td><td>119.869</td><td>119.859</td><td>119928</td><td>119.67</td></tr><tr><td>3</td><td>119.933</td><td>119.916</td><td>119.908</td><td>119.828</td><td>119.813</td><td>119.818</td><td>119.951</td></tr><tr><td>4</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 Through varying these two parameters, we could observe how simulation result changes, and make a reasonable judgement based off it.
 
@@ -220,7 +244,7 @@ Through varying these two parameters, we could observe how simulation result cha
 
 ### Some further improvements
 
-Since in SHG experiment, the non-linear crystal would lie inside the oven, so adding crystal in simulation would be a good improvement to get more trustworthy result of real use scenario.
+Since in SHG experiment, the non-linear crystal lies inside the oven, so adding crystal in simulation would be a good improvement to get more trustworthy result for real use scenario.
 
 As we've discussed, the oven is partially covered by a semi-closed PEEK container, surfaces directly exposed to outside air across a gap in the middle of PEEK definitely experience different convection conditions and radiation ambient temperatures from surfaces at deep corners inside the oven and PEEK. It would be better to split the oven surface into more fine faces and assign them more different and reasonable configurations.&#x20;
 
