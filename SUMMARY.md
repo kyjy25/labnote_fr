@@ -6,6 +6,7 @@
 
 * [Preparation of Characterization of Oven Heating](<README (1).md>)
 * [Characterization of Temperature Reading Resolution](oven-heating/characterization-of-temperature-reading-resolution.md)
+* [Simplified Oven Thermal Simulation](oven-heating/simplified-oven-thermal-simulation.md)
 
 ## Cavity Assembly
 
