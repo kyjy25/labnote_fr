@@ -22,21 +22,21 @@ There are three load types which can be used as heat source:
 * Heat source
 * Internal heat
 
-In our case, the temperature sensor is placed inside a pinhole at lower part of oven with a stable temperature controlled by PID temperature controller. As an approximation, choose applied temperature and apply it on a square area at the oven bottom which corresponds to the contact area against the heater. For the area on PEEK base against heater bottom, we could also add heating effect, but this is not our focus, here, we apply the same thermal load as on the bottom of oven.
+In our setup, the temperature sensor is placed inside a pinhole at lower part of oven with a stable temperature controlled by PID temperature controller. As an approximation, choose applied temperature and apply it on a square region at the oven bottom which corresponds to the contact area with the heater. For the area on PEEK base in contact with heater bottom, we could also add heating effect, but this is not our focus, here, we apply the same thermal load as we did at the bottom of oven.
 
 <div><figure><img src="../.gitbook/assets/applied_temperature_1.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/applied_temperature_2.png" alt=""><figcaption></figcaption></figure></div>
 
-Caption: Applied temperature is set for area which the heater directly heat, in actual case, the temperature of heater surface is not perfectly evenly distributed, as a approximation, we treat these areas as isothermal.&#x20;
+Caption: Applied temperature is set for area which the heater directly heat, in actual case, the temperature of heater surface is not perfectly evenly distributed, as a simplfying approximation, we treat these areas as isothermal.&#x20;
 
 ### Choose Material
 
 Choose corresponding materials in material property setting.
 
-<figure><img src="../.gitbook/assets/simulation_material.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/simulation_material.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Heat Loss
 
-To reach a thermal equillibrium state, besides heating source, there must be heat loss as well. There are two major sources of heat loss.&#x20;
+To reach a thermal equillibrium state, besides heating source, there must be heat loss. There are two major sources of heat loss.&#x20;
 
 * Convective heat transfer: Heat exchange with its ambient environment which is air in our case
 * Natural thermal radiation
@@ -90,9 +90,9 @@ For still air, the heat transfer coefficient (convection value in Fusion setting
 
 #### Selection of Applied Faces&#x20;
 
-The oven is largely covered by PEEK insulation with some gap in between and a small area directly exposed to air. The state of air flow inside this semi-closed structure is unknown and might be quite complex. Therefore, as an approximation, I treat the air convection states of air outside and inside the PEEK as same, that's to say, the convection coefficients applied on surfaces of both external and internal are same.&#x20;
+The oven is largely enclosed by PEEK insulation, with small gaps between components and a limited surface area directly exposed to ambient air. The airflow conditions within this semi-closed structure are uncertain and may be complex. Therefore, as a simplifying approximation, the convective heat transfer conditions inside and outside the PEEK enclosure are treated as identical. In other words, the same convection coefficient is applied to both internal and external surfaces.
 
-As to the configuration of ambient temperature, considering the temperature in between PEEK and oven higher than outside of PEEK, it's reasonable to set a higher ambient temperature for faces inside the PEEK, including internal faces of PEEK and all faces of oven.
+Regarding the ambient temperature configuration, the air temperature in the region between the PEEK insulation and the oven is expected to be higher than that of the external environment. It wold be reasonable to assign a higher ambient temperature to surfaces located inside the PEEK enclosure, including the internal faces of the PEEK and all surfaces of the oven.
 
 {% columns %}
 {% column %}
@@ -116,7 +116,7 @@ As to the configuration of ambient temperature, considering the temperature in b
 {% endcolumn %}
 {% endcolumns %}
 
-Caption: for surfaces inside the PEEK insulation, we treat their convection coefficient same as outside, but with different ambient temperature assignments. As screw components are missing from the model, inner surfaces of screw holes are excluded.
+Caption: for surfaces inside the PEEK insulation, we treat their convection coefficient same as outside, but with different ambient temperature assignments. Since screw components are missing from the model, inner surfaces of screw holes are excluded.
 
 ### Add Radiation Effect
 
@@ -145,7 +145,7 @@ For PEEK, we could take emissivity as 0.95 \[ref.4]
 
 #### Selection of Applied Faces
 
-This step is very similar as in convection process. According to the difference of temperature experienced by surfaces inside and outside the PEEK, I set difference ambient temperatures for them.
+This procedure is very similar to the convection setup described previously. Based on the temperature differences experienced by surfaces located inside and outside the PEEK enclosure, different ambient temperatures are assigned accordingly.
 
 {% columns %}
 {% column %}
@@ -260,7 +260,9 @@ And corresponding plot:
 
 ## Conclusion
 
+The simulation results demonstrate that the thermal distribution is sensitive to both convective and radiative heat transfer parameters. The observed trends are physically reasonable; for example, increasing the convective heat transfer coefficient leads to lower surface temperatures.
 
+Among the six probe points considered, **P1** exhibits the highest temperature. **P3** is a critical location for evaluating the temperature gradient along the crystal cavity. **P5** and **P6** experience similarly lower temperatures; therefore, for practical considerations related to thermistor attachment, **P6** is selected as the third thermistor placement location.
 
 ### Some further improvements
 
@@ -272,11 +274,9 @@ The model we use is a bit different from the real one, a closer model would impr
 
 As we've discussed, the oven is partially covered by a semi-closed PEEK container, surfaces directly exposed to outside air across a gap in the middle of PEEK definitely experience different convection conditions and radiation ambient temperatures from surfaces at deep corners inside the oven and PEEK. It would be better to split the oven surface into more fine faces and assign them more different and reasonable configurations.&#x20;
 
+Additionally it's not clear how the contact detection tolerance setting affect the simulation result, it would be beneficial to vary this value and study its influence on simulation result.&#x20;
 
-
-
-
-
+Currently, in the simulation results view in Fusion, the temperature color bar is applied globally to all body components. When the PEEK body is hidden and the temperature distribution on the oven body alone is examined, the color scale remains constrained to the original narrow range. As a result, the temperature variation on the oven body is not rendered intuitively. This issue may be related to software limitations or computater performance.
 
 
 
