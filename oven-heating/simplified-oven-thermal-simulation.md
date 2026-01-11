@@ -177,10 +177,6 @@ Here, I am using the automatic contacts with a detection tolerance of 0.1mm.&#x2
 
 <figure><img src="../.gitbook/assets/automatic_contact_setting.png" alt="" width="375"><figcaption></figcaption></figure>
 
-### Simulation Observation
-
-After all configuration work is well prepared, do the simulation and pick a set of probe points to observe the temperature difference.&#x20;
-
 ## Result
 
 As described above, these two parameters are curcial in our simulation
