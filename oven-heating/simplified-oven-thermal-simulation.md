@@ -200,7 +200,7 @@ A parameter configuration table shown below can be used to schedule the simulati
 
 We first examine the thermal distribution across the cross-section of the crystal cavity aperture.
 
-Based on the simulation results from Task 7, the temperatures at three points on the upper rim decrease sequentially from right to left, with a maximum difference of **0.059 °C**. This variation is significantly smaller than the temperature difference observed between points on the upper and lower rims. Therefore, in the next step, we focus on the temperature distribution along the crystal cavity direction.
+Based on the simulation results from Task 5, the temperatures at three points on the upper rim decrease sequentially from right to left, with a maximum difference of **0.059 °C**. This variation is significantly smaller than the temperature difference observed between points on the upper and lower rims. Therefore, in the next step, we focus on the temperature distribution along the crystal cavity direction.
 
 It should be noted that, as specified in the automatic contact settings, the contact detection tolerance is **0.1 mm**.
 
