@@ -22,7 +22,7 @@ There are three load types which can be used as heat source:
 * Heat source
 * Internal heat
 
-In our setup, the temperature sensor is placed inside a pinhole at lower part of oven with a stable temperature controlled by PID temperature controller. As an approximation, choose applied temperature and apply it on a square region at the oven bottom which corresponds to the contact area with the heater. For the area on PEEK base in contact with heater bottom, we could also add heating effect, but this is not our focus, here, we apply the same thermal load as we did at the bottom of oven.
+In our setup, the temperature sensor is placed inside a pinhole at lower part of oven with a stable temperature controlled by PID temperature controller. As an approximation, choose applied temperature and apply it on a square region at the oven bottom corresponding to the contact area with the heater. For the region on the PEEK base that is in contact with the heater bottom, a heating effect could also be applied; however, this is not the focus of the present study. Here, the same thermal load is applied as that used at the bottom of the oven
 
 <div><figure><img src="../.gitbook/assets/applied_temperature_1.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/applied_temperature_2.png" alt=""><figcaption></figcaption></figure></div>
 
