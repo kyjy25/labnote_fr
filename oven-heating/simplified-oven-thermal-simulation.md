@@ -14,6 +14,24 @@ Platform: Maccbook (M1)
 
 ## Method
 
+### Choice of Simulation Method
+
+The objective of this simulation is to determine the steady-state temperature distribution inside an oven subjected to a heater and heat losses through its surfaces. At steady state, the system reaches thermal equilibrium. Two of the most relevant numerical simulation methods for this application are discussed below.
+
+**Finite Element Method (FEM)**&#x20;
+
+The finite-element method is a computational method that subdivides a CAD model into very small but finite-sized elements of geometrically simple shapes. The collection of all these simple shapes constitutes the so-called finite-element mesh.
+
+It divides the geometry into small elements of arbitrary shape, it naturally handles complex 3D geometries, multiple materials, and mixed boundary conditions, well suited for solid heat conduction problems, especially efficient for steady-state solutions. \[ref7]
+
+Another simulation method which might be suitable for our case is:&#x20;
+
+**Finite Volume Method (FVM)**&#x20;
+
+The finite-volume method is similar to the finite-element method in that the CAD model is first divided into very small but finite-sized elements of geometrically simple shapes. It is based on the fact that many physical laws are conservation laws—what goes into one cell on one side needs to leave the same cell on another side. It enforces energy conservation over small control volumes, widely used in fluid flow and CFD (computational fluid dynamics).
+
+Thus, Finite Element Method would be a better choice for our case, and Fusion simulation is exactly a tool capable of doing thermal simulation based on FEM method. \[ref8]
+
 ### Add Heating Effect
 
 There are three load types which can be used as heat source:
@@ -283,5 +301,8 @@ Currently, in the simulation results view in Fusion, the temperature color bar i
 3. Ghane, Mohammad & Ghorbani, Ehsan. (2016). Investigation into the UV-Protection of Woven Fabrics Composed of Metallic Weft Yarns. Autex Research Journal. 16. 10.1515/aut-2015-0021.
 4. Properties of Polyetheretherketone (PEEK) transferred materials in a PEEK-steel contact\
    Debashis Puhan1 and Janet S. S. Wong1\*
-5. [https://www.engineeringtoolbox.com/emissivity-coefficients-d\_447.html](https://www.engineeringtoolbox.com/emissivity-coefficients-d_447.html)<br>
+5. [https://www.engineeringtoolbox.com/emissivity-coefficients-d\_447.html](https://www.engineeringtoolbox.com/emissivity-coefficients-d_447.html)
+6. O.C. Zienkiewicz, CBE, FRS. The Finite Element Method: Its Basis and Fundamentals. Sixth edition
+7. [https://www.machinedesign.com/additive-3d-printing/fea-and-simulation/article/21832072/whats-the-difference-between-fem-fdm-and-fvm](https://www.machinedesign.com/additive-3d-printing/fea-and-simulation/article/21832072/whats-the-difference-between-fem-fdm-and-fvm)
+8. [https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-58159399-B08F-43BF-89E3-57AD489FF29C](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-58159399-B08F-43BF-89E3-57AD489FF29C)
 

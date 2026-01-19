@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Plan
 
 ### Oven Heating Test (Short term)
