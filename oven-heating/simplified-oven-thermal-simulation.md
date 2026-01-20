@@ -22,7 +22,7 @@ The objective of this simulation is to determine the steady-state temperature di
 
 The finite-element method is a computational method that subdivides a CAD model into very small but finite-sized elements of geometrically simple shapes. The collection of all these simple shapes constitutes the so-called finite-element mesh.
 
-It divides the geometry into small elements of arbitrary shape, it naturally handles complex 3D geometries, multiple materials, and mixed boundary conditions, well suited for solid heat conduction problems, especially efficient for steady-state solutions. \[ref7]
+It naturally handles complex 3D geometries, multiple materials, and mixed boundary conditions, well suited for solid heat conduction problems, especially efficient for steady-state solutions. \[ref7]
 
 Another simulation method which might be suitable for our case is:&#x20;
 
